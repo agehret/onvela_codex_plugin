@@ -1,0 +1,38 @@
+{
+  "name": "onvela",
+  "version": "1.0.0",
+  "description": "Connect Codex to Onvela through the Onvela MCP server.",
+  "author": {
+    "name": "Onvela",
+    "url": "https://onvela.app"
+  },
+  "homepage": "https://onvela.app",
+  "keywords": [
+    "onvela",
+    "crm",
+    "mcp",
+    "oauth",
+    "workspace"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Onvela",
+    "shortDescription": "Connect Codex to your Onvela workspace.",
+    "longDescription": "Use Onvela context and tools in Codex through Onvela's OAuth-enabled MCP server.",
+    "developerName": "Onvela",
+    "category": "Productivity",
+    "capabilities": [
+      "MCP"
+    ],
+    "websiteURL": "https://onvela.app",
+    "privacyPolicyURL": "https://onvela.app/datenschutz",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Use Onvela to get my workspace context.",
+      "Search Onvela for this project.",
+      "Summarize relevant Onvela items."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

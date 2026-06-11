@@ -1,0 +1,20 @@
+{
+  "name": "onvela",
+  "interface": {
+    "displayName": "Onvela"
+  },
+  "plugins": [
+    {
+      "name": "onvela",
+      "source": {
+        "source": "local",
+        "path": "./plugins/onvela"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
